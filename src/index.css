@@ -1,0 +1,34 @@
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding:0;
+  width:100%;
+  background:white;
+}
+
+#root {
+  min-width: 320px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding:0;
+  background:white;
+}
+
+body {
+  min-width: 320px;;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding:0;
+  background:white;
+}
