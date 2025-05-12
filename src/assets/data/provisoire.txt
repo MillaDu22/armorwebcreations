@@ -1,0 +1,310 @@
+[
+    {
+        "id": 149,
+        "title": "PlanetHoster : Hybride performance et liberté au Canada",
+        "date": "2025-05-13",
+        "intro": "PlanetHoster, avec ses infrastructures hybrides cloud et mutualisées, offre une solution très flexible depuis Montréal.",
+        "content": [
+            "1. Présentation de PlanetHoster",
+            "Entreprise canadienne-française proposant des solutions sur mesure.",
+            "2. Caractéristiques principales",
+            "2.1. Hébergement World",
+            "Ressources 100% allouées avec gestion libre des ressources.",
+            "2.2. Cloud privé hybride",
+            "Flexibilité maximale, stockage illimité, support Pro+.",
+            "2.3. Engagement éthique",
+            "Respect de la vie privée, centre de données certifié ISO 27001.",
+            "3. Ciblé pour...",
+            "Startups innovantes, agences web, clients premium.",
+            "4. Conclusion",
+            "PlanetHoster est l’alternative haut de gamme canadienne pour une liberté et une performance totales."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 150,
+        "title": "Performance optimisée : quand le code sur mesure fait la différence",
+        "date": "2025-05-14",
+        "intro": "Un site codé à la main charge plus vite, répond mieux et fait plaisir à Google. Contrairement aux CMS souvent trop lourds.",
+        "content": [
+            "1. Pourquoi la performance compte",
+            "Un site rapide améliore l'expérience utilisateur et le référencement.",
+            "2. CMS : la lenteur intégrée",
+            "Thèmes surchargés, plugins multiples, scripts inutiles.",
+            "3. Code sur mesure : le contrôle total",
+            "Optimisation ciblée, seulement ce qui est nécessaire, pas plus.",
+            "4. Résultat sur le terrain",
+            "Tests GTmetrix / Lighthouse bien au-dessus de la moyenne.",
+            "5. Conclusion",
+            "Pour des performances au top, rien ne vaut un code propre fait main."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 151,
+        "title": "Sécurité : coder, c’est protéger",
+        "date": "2025-05-15",
+        "intro": "Un site personnalisé limite les failles. Les CMS ? Des cibles faciles pour les pirates.",
+        "content": [
+            "1. Risques fréquents avec les CMS",
+            "Plugins obsolètes, thèmes piratés, mises à jour manquées.",
+            "2. Le site codé, plus résistant",
+            "Pas de porte ouverte par des tiers, code audité dès le départ.",
+            "3. Personnalisation de la sécurité",
+            "Politiques CSP, contrôle des requêtes, logs précis.",
+            "4. Cas concrets",
+            "Des milliers de sites WordPress piratés chaque jour.",
+            "5. Conclusion",
+            "Le développement sur mesure permet une sécurité proactive."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 152,
+        "title": "Accessibilité : penser à tous les visiteurs",
+        "date": "2025-05-16",
+        "intro": "Un site bien codé respecte les normes d’accessibilité. Ce n’est pas automatique sur les CMS.",
+        "content": [
+            "1. L’accessibilité, c’est quoi ?",
+            "Permettre à tous (handicaps visuels, moteurs…) d'accéder au contenu.",
+            "2. CMS : accessibilité négligée",
+            "Thèmes non conformes, plugins non testés.",
+            "3. Code sur mesure : maîtrise des balises ARIA, contrastes, navigation clavier.",
+            "4. Bénéfices globaux",
+            "Meilleure UX, conformité RGAA/ADA, image de marque.",
+            "5. Conclusion",
+            "Un site codé respecte tout le monde, pas seulement les robots."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 153,
+        "title": "Référencement technique : quand le code booste Google",
+        "date": "2025-05-19",
+        "intro": "Avec un site codé, on maîtrise les performances SEO dès la structure HTML. Avec un CMS, on subit.",
+        "content": [
+            "1. Ce que Google veut",
+            "Structure propre, balises sémantiques, vitesse, accessibilité.",
+            "2. CMS : des limites",
+            "Balises mal placées, surcharge inutile, crawl inefficace.",
+            "3. Code personnalisé : chaque balise a un sens",
+            "Balises `main`, `article`, `section` bien posées.",
+            "4. Résultat sur le ranking",
+            "Meilleure indexation, moins de pages exclues, meilleure position.",
+            "5. Conclusion",
+            "Un code bien pensé, c’est un référencement qui grimpe naturellement."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 154,
+        "title": "Évolutivité : un site prêt pour demain",
+        "date": "2025-05-20",
+        "intro": "Un site codé s’adapte à votre croissance. Un CMS ? Il devient vite une cage.",
+        "content": [
+            "1. Grandir sans changer tout",
+            "Pouvoir ajouter des fonctionnalités sans tout casser.",
+            "2. CMS : limites de structure",
+            "Plugins incompatibles, conflits, bugs en cascade.",
+            "3. Code sur mesure : base claire, architecture scalable",
+            "Ajout de pages, modules, APIs sans douleur.",
+            "4. Cas client",
+            "Un blog devenu marketplace, sans reconstruire.",
+            "5. Conclusion",
+            "Un site évolutif commence par un développement réfléchi."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 155,
+        "title": "Expérience utilisateur : coder pour convaincre",
+        "date": "2025-05-21",
+        "intro": "L’UX d’un site codé est pensée sur-mesure. Les CMS, eux, s’adaptent mal aux vrais besoins.",
+        "content": [
+            "1. Qu’est-ce qu’une bonne UX ?",
+            "Navigation intuitive, parcours clair, esthétique soignée.",
+            "2. CMS : un moule générique",
+            "Templates figés, ergonomie forcée.",
+            "3. Développement sur mesure : liberté totale",
+            "UI cohérente, design centré utilisateur, interactions sur-mesure.",
+            "4. Impact sur les conversions",
+            "Plus d'engagement, moins de rebond, meilleurs résultats.",
+            "5. Conclusion",
+            "L’UX n’est pas un bonus : c’est la clé du succès en ligne."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 156,
+        "title": "Maintenance : simplicité et contrôle",
+        "date": "2025-05-22",
+        "intro": "Un site codé est plus facile à maintenir : vous savez ce qu’il fait, et pourquoi. Les CMS ? Un vrai labyrinthe.",
+        "content": [
+            "1. L’enfer des plugins",
+            "Mises à jour critiques, compatibilités floues, bugs inattendus.",
+            "2. Code propre : lisible, documenté",
+            "Pas de surprise, pas de plugin fantôme.",
+            "3. Dépannage rapide",
+            "Un développeur peut intervenir sans reverse-engineering.",
+            "4. Tranquillité à long terme",
+            "Pas besoin de tout refaire au moindre souci.",
+            "5. Conclusion",
+            "Un site bien codé, c’est la garantie de dormir tranquille."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 157,
+        "title": "Légèreté : un site rapide, fluide, efficace",
+        "date": "2025-05-23",
+        "intro": "Avec un code maîtrisé, votre site reste léger. Un CMS s’alourdit à chaque clic.",
+        "content": [
+            "1. Poids d’une page",
+            "Le nombre de requêtes et le poids total influent sur le temps de chargement.",
+            "2. CMS : scripts inutiles",
+            "Des dizaines de fichiers chargés même quand ils ne servent pas.",
+            "3. Développement léger",
+            "CSS et JS minimalistes, lazy-loading, SVG au lieu de PNG.",
+            "4. Impact utilisateur",
+            "Moins de data, chargement instantané, meilleur ressenti.",
+            "5. Conclusion",
+            "Un site léger, c’est un site moderne, respectueux et performant."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 158,
+        "title": "Mobile first : une évidence avec un site codé",
+        "date": "2025-05-26",
+        "intro": "Aujourd’hui, un site doit d’abord penser mobile. Ce n’est pas le cas de tous les CMS.",
+        "content": [
+            "1. L’usage mobile explose",
+            "Plus de la moitié des visites viennent du smartphone.",
+            "2. CMS : responsive… parfois",
+            "Certains thèmes ne sont pas vraiment optimisés mobile.",
+            "3. Développement Mobile First",
+            "Design pensé pour petit écran d’abord, adaptation fluide.",
+            "4. Testé et approuvé",
+            "Audit Lighthouse : pas de texte trop petit, boutons accessibles.",
+            "5. Conclusion",
+            "Un site codé, c’est un site pensé pour les vrais usages."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 159,
+        "title": "Identité unique : ne ressemblez à personne",
+        "date": "2025-05-27",
+        "intro": "Avec un site sur mesure, votre image est claire, originale. Les CMS, eux, rendent tous les sites pareils.",
+        "content": [
+            "1. L’importance de la différenciation",
+            "Pour marquer les esprits et créer la confiance.",
+            "2. CMS : des clones à la chaîne",
+            "Des designs vus et revus, peu de personnalité.",
+            "3. Code personnalisé : image soignée, branding fort",
+            "Choix des polices, des animations, des transitions uniques.",
+            "4. Communication renforcée",
+            "Le site devient un véritable outil marketing.",
+            "5. Conclusion",
+            "Le site est le reflet de votre projet. Ne le laissez pas dans un moule."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 160,
+        "title": "Scalabilité : un site codé qui grandit avec votre projet",
+        "date": "2025-05-28",
+        "intro": "Un site sur mesure permet d'ajouter des fonctionnalités ou de changer d'architecture au fil de votre croissance, contrairement à un CMS vite limité.",
+        "content": [
+            "1. Qu’est-ce que la scalabilité ?",
+            "C’est la capacité d’un site à s’adapter à une montée en charge ou à une évolution fonctionnelle.",
+            "2. Freins d’un CMS",
+            "Extensions limitées, conflits entre plugins, ou performances qui chutent quand le trafic augmente.",
+            "3. Avantages du sur-mesure",
+            "3.1. Architecture évolutive",
+            "Ajout d’API, passage à un back-end, gestion optimisée des bases de données.",
+            "3.2. Code modulaire",
+            "Chaque composant peut évoluer sans tout casser.",
+            "4. Conclusion",
+            "Un site codé vous suit dans la durée, alors qu’un CMS vous impose souvent une refonte complète."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 161,
+        "title": "Un développeur, un allié : l’humain derrière le code",
+        "date": "2025-05-29",
+        "intro": "Contrairement à un CMS installé seul ou par une agence impersonnelle, travailler avec un développeur freelance offre un vrai suivi technique et relationnel.",
+        "content": [
+            "1. Les limites du prêt-à-installer",
+            "Peu de support, pas de personnalisation en profondeur, difficulté à résoudre les bugs complexes.",
+            "2. Un interlocuteur dédié",
+            "2.1. Connaissance du projet",
+            "Le développeur connaît chaque ligne de code et répond rapidement aux besoins.",
+            "2.2. Proximité et conseils",
+            "Accompagnement dans le temps, évolutions réfléchies selon vos objectifs.",
+            "3. Relation de confiance",
+            "Un partenariat qui valorise l’humain et votre projet sur le long terme.",
+            "4. Conclusion",
+            "Un site sur mesure, c’est aussi un professionnel à vos côtés, et pas seulement un outil impersonnel."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 162,
+        "title": "Coût réel : abonnement CMS ou investissement dans un site codé ?",
+        "date": "2025-05-30",
+        "intro": "Un site développé sur mesure représente un investissement initial mais évite les frais récurrents liés aux abonnements des CMS comme Wix ou Shopify.",
+        "content": [
+            "1. Les modèles économiques des CMS",
+            "Abonnements mensuels, options payantes, frais de transaction… le CMS semble abordable mais coûte plus cher sur la durée.",
+            "2. Le développement sur mesure",
+            "2.1. Paiement unique",
+            "Le client devient propriétaire de son site, sans engagement mensuel.",
+            "2.2. Économie à long terme",
+            "Pas de dépendance à une plateforme, pas de frais cachés, pas de hausse de tarifs imprévue.",
+            "3. Étude comparative",
+            "Un CMS à 30€/mois + 10€/mois pour le nom de domaine + plugins payants = 600€/an. En 3 ans, cela dépasse largement le coût d’un site codé.",
+            "4. Conclusion",
+            "Payer une fois pour un site que vous possédez ou louer à vie un site bridé : le site codé est un investissement durable et plus rentable."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 163,
+        "title": "Site codé ou CMS : le bon choix pour un projet sérieux",
+        "date": "2025-05-31",
+        "intro": "CMS ou site codé : derrière cette question simple se cache un choix stratégique pour la crédibilité, l’efficacité et la pérennité de votre présence en ligne.",
+        "content": [
+            "1. Les promesses des CMS",
+            "Créer un site vite, sans code, à moindre coût… mais avec beaucoup de compromis.",
+            "2. Ce qu’on ne vous dit pas",
+            "Sites lents, mal référencés, souvent identiques, avec peu de liberté technique ou graphique.",
+            "3. Le site codé : sur mesure, performant, évolutif",
+            "3.1. Une image professionnelle",
+            "Design unique, expérience utilisateur optimisée, code propre et fluide.",
+            "3.2. Un projet évolutif",
+            "Ajouts de fonctionnalités, adaptation aux besoins réels, pas de limites techniques imposées.",
+            "3.3. Un investissement stratégique",
+            "Un site codé est un outil qui vous appartient, pensé pour vos objectifs business, sans abonnement ni contrainte de plateforme.",
+            "4. En résumé",
+            "Choisir un développeur, c’est choisir l’efficacité, l’autonomie et l’impact. Un site codé, c’est votre projet, vos règles, votre succès."
+        ],
+        "sign": "Ludmilla Marti"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
