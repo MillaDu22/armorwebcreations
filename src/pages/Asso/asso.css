@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600&display=swap');
+
+.association-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px ;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin:0 auto;
+}
+
+.association-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.association-container .fa-users {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #61DAFB;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #61DAFB;
+    margin: 0 auto;
+}
+
+.association-title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #61DAFB;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Effet de survol pour les titres */
+.association-title:hover {
+    color: #61DAFB; /* Change la couleur du texte */
+    text-shadow: 0 0 15px #61DAFB, 0 0 20px #61DAFB; /* Ajoute un effet de brillance */
+    transform: scale(1.02); /* Légère mise en avant */
+}
+
+.association-intro, .association-process, .association-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.association-intro h2, .association-process h2, .association-contact h2 {
+    font-size: 1.6em;
+    color: #61DAFB;
+    margin-top: 10px;
+}
+
+.association-benefits, .association-process {
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin: 10px 0;
+    padding: 0%;
+}
+
+.association-benefits, .process-steps {
+    border-left: 3px solid #61DAFB;
+}
+
+.association-benefits li, .process-steps li {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1em;
+    font-size: 1em;
+    margin-bottom: 10px;
+
+}
+
+
+.association-benefits .fa-globe, 
+.association-benefits .fa-users,
+.association-benefits .fa-calendar-alt, 
+.association-benefits .fa-hand-holding-heart, 
+.process-steps .fa-comments, 
+.process-steps .fa-paint-brush, 
+.process-steps .fa-tools, 
+.process-steps .fa-check-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #61DAFB;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-right: 10px;
+    width: 40px;
+    height:40px;
+    margin-left: 20px;
+    border:none;
+    text-align: center;
+}
+
+
+
+.association-intro p, .association-process p, .association-contact p {
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+.association-intro, .association-process, .association-contact {
+    margin-bottom: 40px;
+    color: white;
+}
+
+.association-contact{
+    padding-bottom: 30px;
+}
+
+.association-contact-link {
+    box-shadow: 0 3px 4px #0d0d0d, inset 0 -2px 5px #0d0d0d,
+    inset -4px 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #0d0d0d, 0 0 0 2px #0d0d0d,
+    0 0 0 -1.5px #0d0d0d;
+    padding: 10px;
+    border-radius: 20px;
+    background: #0d0d0d;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #61DAFB; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 40px auto;
+    text-decoration: none;
+}
+
+.association-contact-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #61DAFB; 
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.association-contact-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.association-contact-link:hover {
+    background-color: #61DAFB; 
+    transform: scale(1); 
+    color: black;
+    box-shadow: 2px 2px 5px rgba(0, 255, 255, 0.87), inset -5px -5px 10px rgba(0, 255, 255, 0.791),
+    inset 0 4px 15px #61DAFB, 0 0 0 2px #61DAFB, 0 0 0 5px #61DAFB,
+    0 0 0 5.5px rgba(0, 255, 255, 0.791);
+}
+
+.association-contact-link span {
+    position: relative;
+    z-index: 1; 
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.association-intro.fade-in {
+    animation-delay: 0.3s;
+}
+
+.association-process.fade-in {
+    animation-delay: 0.6s;
+}
+
+.association-contact.fade-in {
+    animation-delay: 0.9s;
+}
+
+/* Ajustements globaux pour mobile */
+@media (max-width: 768px) {
+    .association-section {
+        width:96%;
+        padding-top: 190px;
+    }
+
+    .association-title {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .association-intro h2, .association-process h2, .association-contact h2 {
+        font-size: 1.4em;
+    }
+
+    .association-intro p, .association-process p, .association-contact p {
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+
+    .association-benefits .fa-globe, 
+    .association-benefits .fa-users,
+    .association-benefits .fa-calendar-alt, 
+    .association-benefits .fa-hand-holding-heart, 
+    .process-steps .fa-comments, 
+    .process-steps .fa-paint-brush, 
+    .process-steps .fa-tools, 
+    .process-steps .fa-check-circle {
+        font-size: 15px;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .association-benefits .fa-users {
+        margin-left:10px;
+    }
+
+    .association-contact-link {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+    }
+
+    /* Ajuste la taille du conteneur pour les petits écrans */
+    .association-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    /* Réduit les marges et le padding pour plus de compacité */
+    .association-intro, .association-process, .association-contact {
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .association-contact p, .association-contact h2 {
+        margin-top: 5px;
+    }
+
+    .association-container .fa-users {
+        font-size: 1em;
+        width: 50px;
+        height: 50px;
+        border-width: 4px;
+    }
+
+    .association-benefits li, .process-steps li {
+        margin: 5px 0;
+        font-size: 15px;
+    }
+}
+
+/* Styles spécifiques pour très petits écrans */
+@media (max-width: 480px) {
+    .association-section {
+        width: 94%;
+        padding-top: 190px;
+    }
+
+    .association-title {
+        font-size: 1.5em;
+    }
+
+    .association-intro h2, .association-process h2, .association-contact h2 {
+        font-size: 1.2em;
+    }
+
+    .association-intro p, .association-process p, .association-contact p {
+        font-size: 0.9em;
+    }
+
+    .association-contact-link {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .association-benefits .fa-users {
+        margin-left:15px;
+    }
+
+    .association-benefits .fa-globe {
+        margin-left:15px;
+    }
+
+    .association-container li, .process-steps li {
+        font-size: 15px;
+    }
+}

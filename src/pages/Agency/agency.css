@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600&display=swap');
+
+.agency-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0 auto;
+}
+
+.agency-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.agency-container .fa-building {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #61DAFB;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #61DAFB;
+    margin: 0 auto;
+}
+
+.agency-title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #61DAFB;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Effet de survol pour les titres */
+.agency-title:hover {
+    color: #61DAFB; /* Change la couleur du texte */
+    text-shadow: 0 0 15px #61DAFB, 0 0 20px #61DAFB; /* Ajoute un effet de brillance */
+    transform: scale(1.02); /* Légère mise en avant */
+}
+
+.agency-intro, .agency-process, .agency-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.agency-intro h2, .agency-process h2, .agency-contact h2 {
+    font-size: 1.6em;
+    color: #61DAFB;
+    margin-top: 10px;
+}
+
+.agency-intro h2, .agency-intro p, .agency-intro ul {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.agency-intro p, .agency-intro ul {
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.agency-benefits, .agency-process{
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin: 10px 0;
+    padding: 0%;
+}
+.agency-benefits , .process-steps{
+    border-left: 3px solid #61DAFB
+}
+
+.agency-benefits li, .process-steps li {
+    display: flex;
+    align-items: center;
+    line-height: 1em;
+    font-size: 1em;
+    color:white;
+    margin-bottom: 10px;
+}
+
+
+.agency-benefits .fa-project-diagram,
+.agency-benefits .fa-code,
+.agency-benefits .fa-sync-alt,
+.agency-benefits .fa-users-cog,
+.process-steps .fa-briefcase,
+.process-steps .fa-tasks,
+.process-steps .fa-rocket,
+.process-steps .fa-chart-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #61DAFB;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding:0;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.agency-intro p, .agency-process p, .agency-contact p {
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.2em;
+    color:white;
+}
+
+.agency-intro, .agency-process, .agency-contact {
+    margin-bottom: 40px;
+    color: white;
+}
+
+.agency-contact-link {
+    box-shadow: 0 3px 4px #0d0d0d, inset 0 -2px 5px #0d0d0d,
+    inset -4px 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #0d0d0d, 0 0 0 2px #0d0d0d,
+    0 0 0 -1.5px #0d0d0d;
+    padding: 10px;
+    border-radius: 20px;
+    background: #0d0d0d;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #61DAFB; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 40px auto;
+    text-decoration: none;
+}
+
+.agency-contact-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #61DAFB; 
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.agency-contact-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+.agency-contact-link:hover {
+    background-color: #61DAFB; 
+    transform: scale(1.05); 
+    color: black;
+    box-shadow: 2 2px 5px rgba(0, 255, 255, 0.87), inset -5 -5px 10px rgba(0, 255, 255, 0.791),
+    inset 0 4px 15px #61DAFB, 0 0 0 2px #61DAFB, 0 0 0 5px #61DAFB,
+    0 0 0 5.5px rgba(0, 255, 255, 0.791);
+}
+
+.agency-contact-link span {
+    position: relative;
+    z-index: 1; 
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    transition: opacity 0.3s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.agency-intro.fade-in {
+    animation-delay: 0.3s;
+}
+
+.agency-process.fade-in {
+    animation-delay: 0.6s;
+}
+
+.agency-contact.fade-in {
+    animation-delay: 0.9s;
+}
+
+/* Ajustements globaux pour mobile */
+@media (max-width: 768px) {
+    .agency-section {
+        width:96%;
+        padding-top: 190px;
+    }
+
+    .agency-title {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .agency-intro h2, .agency-process h2, .agency-contact h2 {
+        font-size: 1.4em;
+    }
+
+    .agency-intro p, .agency-process p, .agency-contact p {
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+
+    .agency-benefits .fa-project-diagram,
+    .agency-benefits .fa-code,
+    .agency-benefits .fa-sync-alt,
+    .agency-benefits .fa-users-cog,
+    .process-steps .fa-briefcase,
+    .process-steps .fa-tasks,
+    .process-steps .fa-rocket,
+    .process-steps .fa-chart-line {
+        font-size: 15px;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .agency-contact-link {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+    }
+
+    /* Ajuste la taille du conteneur pour les petits écrans */
+    .agency-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    /* Réduit les marges et le padding pour plus de compacité */
+    .agency-intro, .agency-process, .agency-contact {
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .agency-contact h2, .agency-contact p {
+        margin-top: 5px;
+    }
+
+        /* Réduction des icônes */
+        .agency-container .fa-building {
+            font-size: 1em;
+            width: 50px;
+            height: 50px;
+            border-width: 4px;
+        }
+    
+        /* Espacement entre les listes */
+        .agency-benefits li {
+            margin: 5px 0;
+            font-size: 15px;
+        }
+        .process-steps li {
+            margin: 5px 0;
+            font-size: 15px;
+        }
+}
+
+/* Styles spécifiques pour très petits écrans */
+@media (max-width: 480px) {
+    .agency-section {
+        width:94%;
+        padding-top: 190px;
+    }
+
+    .agency-title {
+        font-size: 1.5em;
+    }
+
+    .agency-intro h2, .agency-process h2, .agency-contact h2 {
+        font-size: 1.2em;
+    }
+
+    .agency-intro p, .agency-process p, .agency-contact p {
+        font-size: 0.9em;
+    }
+
+    .agency-contact-link {
+        padding: 8px;
+        font-size: 12px;
+    }
+    /* Réduire davantage les icônes */
+    .agency-container .fa-building {
+        font-size: 0.9em;
+        width: 40px;
+        height: 40px;
+        border-width: 3px;
+    }
+
+    .agency-benefits li, .process-steps li {
+        font-size: 15px;
+    }
+}
+

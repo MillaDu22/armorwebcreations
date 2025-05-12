@@ -1,0 +1,27 @@
+
+.logo3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0%;
+    width:500px; 
+    height: 375px; 
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.logo3-video {
+    margin: 0 auto;
+    width: 80%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+@media screen and (max-width: 1306px) {
+    .logo3-container {
+        width:310px;
+        height:210px;
+        padding: 2%;
+    }
+}

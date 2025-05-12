@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600&display=swap');
+
+.club-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0 auto;
+}
+
+.club-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.club-container .fa-futbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #61DAFB;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #61DAFB;
+    margin: 0 auto;
+}
+
+.club-title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #61DAFB;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Effet de survol pour les titres */
+.club-title:hover {
+    color: #61DAFB; /* Change la couleur du texte */
+    text-shadow: 0 0 15px #61DAFB, 0 0 20px #61DAFB; /* Ajoute un effet de brillance */
+    transform: scale(1.02); /* Légère mise en avant */
+}
+
+.club-intro, .club-process, .club-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.club-intro h2, .club-process h2, .club-contact h2 {
+    font-size: 1.6em;
+    color: #61DAFB;
+    margin-top: 10px;
+}
+
+.club-intro h2, .club-intro p, .club-intro ul {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.club-intro p, .club-intro ul {
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+.club-benefits, .club-process {
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin: 10px 0;
+    padding: 0%;
+}
+
+.club-benefits, .process-steps {
+    border-left: 3px solid #61DAFB;
+}
+
+.club-benefits li, .process-steps li {
+    display: flex;
+    align-items: center;
+    line-height: 1em;
+    font-size: 1em;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.club-benefits .fa-users, .club-benefits .fa-calendar-alt, .club-benefits .fa-camera, .club-benefits .fa-trophy, 
+.process-steps .fa-comments, .process-steps .fa-paint-brush, .process-steps .fa-tools, .process-steps .fa-check-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #61DAFB;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding:0;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.club-intro p, .club-process p, .club-contact p {
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.2em;
+    color:white;
+}
+
+.club-contact-link {
+    box-shadow: 0 3px 4px #0d0d0d, inset 0 -2px 5px #0d0d0d,
+    inset -4px 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #0d0d0d, 0 0 0 2px #0d0d0d,
+    0 0 0 -1.5px #0d0d0d;
+    padding:10px;
+    border-radius: 20px;
+    background: #0d0d0d;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #61DAFB; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    position: relative;
+    overflow: hidden;
+    margin:20px auto 40px auto;
+    text-decoration: none;
+}
+
+.club-contact-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #61DAFB; 
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.club-contact-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.club-contact-link:hover {
+    background-color: #61DAFB; 
+    transform: scale(1.05); 
+    color:black;
+    box-shadow: 2 2px 5px rgba(0, 255, 255, 0.87), inset -5 -5px 10px rgba(0, 255, 255, 0.791),
+    inset 0 4px 15px #61DAFB, 0 0 0 2px #61DAFB, 0 0 0 5px #61DAFB,
+    0 0 0 5.5px rgba(0, 255, 255, 0.791);
+}
+
+.club-contact-link span {
+    position: relative;
+    z-index: 1; 
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    transition: opacity 0.3s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.club-intro.fade-in {
+    animation-delay: 0.3s;
+}
+
+.club-process.fade-in {
+    animation-delay: 0.6s;
+}
+
+.club-contact.fade-in {
+    animation-delay: 0.9s;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .club-section {
+        width:96%;
+        padding-top: 190px;
+
+    }
+
+    .club-title {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .club-intro h2, .club-process p, .club-contact p {
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+
+    .club-benefits .fa-users, 
+    .club-benefits .fa-calendar-alt, 
+    .club-benefits .fa-camera, 
+    .club-benefits .fa-trophy, 
+    .process-steps .fa-comments, 
+    .process-steps .fa-paint-brush, 
+    .process-steps .fa-tools, 
+    .process-steps .fa-check-circle {
+        font-size: 15px;
+        width: 30px;
+        margin-right: 10px;
+    }   
+
+    .club-contact-link {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+    }
+
+    .club-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    /* Réduit les marges et le padding pour plus de compacité */
+    .club-intro, .club-process, .club-contact {
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .club-contact h2, .club-contact p {
+        margin-top: 5px;
+    }
+
+    /* Réduction des icônes */
+    .club-container .fa-futbol {
+        font-size: 1em;
+        width: 50px;
+        height: 50px;
+        border-width: 4px;
+    }
+
+    /* Espacement entre les listes */
+    .club-benefits li {
+        margin: 5px 0;
+        font-size: 15px;
+    }
+    .process-steps li {
+        margin: 5px 0;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .club-section {
+        width:94%;
+        padding-top: 190px;
+    }
+
+    .club-title {
+        font-size: 1.5em;
+    }
+
+    .club-intro h2, .club-process h2, .club-contact h2 {
+        font-size: 1.2em;
+    }
+
+    .club-intro p, .club-process p, .club-contact p {
+        font-size: 0.9em;
+    }
+
+    .club-contact-link {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    /* Réduire davantage les icônes */
+    .club-container .fa-futbol {
+        font-size: 0.9em;
+        width: 40px;
+        height: 40px;
+        border-width: 3px;
+    }
+
+    .club-benefits li, .process-steps li {
+        font-size: 15px;
+    }
+}

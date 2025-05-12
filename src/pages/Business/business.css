@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600&display=swap');
+
+
+.business-section {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0 auto;
+}
+
+.business-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.business-container .fa-laptop-code {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #61DAFB;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    border:5px solid #61DAFB;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.business-title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #61DAFB;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Effet de survol pour les titres */
+.business-title:hover {
+    color: #61DAFB; /* Change la couleur du texte */
+    text-shadow: 0 0 15px #61DAFB, 0 0 20px #61DAFB; /* Ajoute un effet de brillance */
+    transform: scale(1.02); /* Légère mise en avant */
+}
+
+.business-intro, .business-process, .business-contact {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.business-intro h2, .business-process H2 {
+    font-size: 1.5em;
+    color: #61DAFB;
+} 
+
+.business-intro h2, .business-process h2{
+    font-size:1.6em;
+    color: #61DAFB;
+}
+
+
+.business-intro h2, .business-intro p, .business-intro ul {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.business-intro p, .business-intro ul {
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.business-process h2, .business-process p, .business-process ul {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.business-process p, .business-process ul {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.business-contact h2, .business-contact p {
+    margin-top: 10px;
+    color:white;
+}
+
+.business-contact h2 {
+    font-size:1.5em;
+    color: #61DAFB;
+}
+
+.business-contact p {
+    text-align: left;
+    font-size: 1.2em;;
+}
+
+.biz-benefits, .process-steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin:0px;
+    padding: 0;
+    text-align: left;
+    font-size: 1em;
+    border-left: 3px solid #61DAFB;
+}
+
+.biz-benefits li, .process-steps li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    line-height:1em;
+    font-size: 1em;
+    list-style: none;
+    width:100%;
+    text-align: left;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.biz-benefits li .fa-chart-line, 
+.biz-benefits li .fa-laptop-code, 
+.biz-benefits li .fa-rocket, 
+.biz-benefits li .fa-handshake,
+.process-steps li .fa-laptop-code,
+.process-steps li .fa-rocket,
+.process-steps li .fa-handshake,
+.process-steps li .fa-chart-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2em;
+    line-height: 1.2em;
+    color:#61DAFB;
+    border:none;
+    padding:0;
+    width:40px;
+    height:40px;
+    margin:0 15px 0 20px;
+    text-align: center;
+}
+
+.business-intro, .business-process, .business-contact {
+    margin-bottom: 40px;
+    color:white;
+}
+
+
+.business-contact-link {
+    box-shadow: 0 3px 4px #0d0d0d, inset 0 -2px 5px #0d0d0d,
+    inset -4px 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #0d0d0d, 0 0 0 2px #0d0d0d,
+    0 0 0 -1.5px #0d0d0d;
+    padding:10px;
+    border-radius: 20px;
+    background: #0d0d0d;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #61DAFB; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    position: relative;
+    overflow: hidden;
+    margin:20px auto 40px auto;
+    text-decoration: none;
+}
+    
+.business-contact-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #61DAFB; 
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.business-contact-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.business-contact-link:hover {
+    background-color: #61DAFB; 
+    transform: scale(1.05); 
+    color:black;
+    box-shadow: 2 2px 5px rgba(0, 255, 255, 0.87), inset -5 -5px 10px rgba(0, 255, 255, 0.791),
+    inset 0 4px 15px #61DAFB, 0 0 0 2px #61DAFB, 0 0 0 5px #61DAFB,
+    0 0 0 5.5px rgba(0, 255, 255, 0.791);
+}
+
+.business-contact-link span {
+    position: relative;
+    z-index: 1; 
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.business-intro.fade-in {
+    animation-delay: 0.3s;
+}
+.business-process.fade-in {
+    animation-delay: 0.6s;
+}
+.business-contact.fade-in {
+    animation-delay: 0.9s;
+}
+
+/* Ajustements globaux pour mobile */
+@media (max-width: 768px) {
+    .business-section {
+        width:96%;
+        padding-top: 190px;
+    }
+
+    .business-title {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .business-intro h2, .business-process h2, .business-contact h2 {
+        font-size: 1.4em;
+    }
+
+    .business-intro p, .business-process p, .business-contact p{
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+
+    .biz-benefits li .fa-chart-line, 
+    .biz-benefits li .fa-laptop-code, 
+    .biz-benefits li .fa-rocket, 
+    .biz-benefits li .fa-handshake,
+    .process-steps li .fa-laptop-code,
+    .process-steps li .fa-rocket,
+    .process-steps li .fa-handshake,
+    .process-steps li .fa-chart-line {
+        font-size: 15px;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .business-contact-link {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+    }
+
+    /* Ajuste la taille du conteneur pour les petits écrans */
+    .business-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    /* Réduit les marges et le padding pour plus de compacité */
+    .business-intro, .business-process, .business-contact {
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .business-contact h2, .business-contact p {
+        margin-top: 5px;
+    }
+
+    /* Réduction des icônes */
+    .business-container .fa-laptop-code {
+        font-size: 1em;
+        width: 50px;
+        height: 50px;
+        border-width: 4px;
+    }
+
+    /* Espacement entre les listes */
+    .biz-benefits li {
+        margin: 5px 0;
+        font-size: 15px;
+    }
+    .process-steps li {
+        margin: 5px 0;
+        font-size: 15px;
+    }
+}
+
+/* Styles spécifiques pour très petits écrans, comme les téléphones de moins de 480px de large */
+@media (max-width: 480px) {
+    .business-section {
+        width:94%;
+        padding-top: 190px;
+    }
+
+    .business-title {
+        font-size: 1.5em;
+    }
+
+    .business-intro h2, .business-process h2, .business-contact h2 {
+        font-size: 1.2em;
+    }
+
+    .business-intro p, .business-process p, .business-contact p {
+        font-size: 0.9em;
+    }
+
+    .business-contact-link {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    /* Réduire davantage les icônes */
+    .business-container .fa-laptop-code {
+        font-size: 0.9em;
+        width: 40px;
+        height: 40px;
+        border-width: 3px;
+    }
+
+    .biz-benefits li, .process-steps li {
+        font-size: 15px;
+    }
+}
+
+
+
+
