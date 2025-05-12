@@ -1,11 +1,15 @@
 <!doctype html>
 <html lang="fr">
   <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Site officiel de la société Armor Web Creations"/>
-    <title>Armor Web Creations</title>
+    <title>Concepteur de sites web à Guingamp | Armor Web Creations| Armor Web Creations</title>
+    <meta name="description" content="Armor Web Creations, concepteur de sites web à Guingamp (22),
+    spécialisé dans la création de sites internet.
+    Demandez votre devis gratuit pour entreprises, clubs et associations." />
+    <link rel="canonical" href="https://armor-web-creations.vercel.app" />
+    <link rel="icon" href="/public/icon-ico.png" />
 
     <!-- Polices d'écriture -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,8 +21,69 @@
     <!-- Font Awesome -->
     <link rel="preconnect" href="https://ka-f.fontawesome.com/" />
     <script src="https://kit.fontawesome.com/aa04c98466.js" crossorigin="anonymous"></script>
+
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- JSON-LD Schema.org for Local Business -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Armor Web Creations",
+        "image": "https://github.com/MillaDu22/ldla-mti-web-developer/blob/main/src/assets/images/britain-logo.webp",
+        "@id": "https://armor-web-creations.vercel.app/#business",
+        "url": "https://armor-web-creations.vercel.app",
+        "telephone": "+33-764006531",
+        "priceRange": "Sur-mesure",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "14 rue Feunten Ar C'hlan",
+          "addressLocality": "Plesidy",
+          "postalCode": "22720",
+          "addressRegion": "Côtes-d'Armor, Bretagne",
+          "addressCountry": "France"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 48.4745,
+          "longitude": -3.0433
+        },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "08:30", "closes": "18:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "08:30", "closes": "18:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "08:30", "closes": "18:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "08:30", "closes": "18:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:30", "closes": "18:00" }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/ludmilla-marti-345313255/",
+          "https://www.facebook.com/armorwebcreations/"
+        ]
+      }
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-K2D59TZV');
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2D59TZV" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

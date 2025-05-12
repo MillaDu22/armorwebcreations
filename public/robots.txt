@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://armor-web-creations.vercel.app/sitemap.xml
