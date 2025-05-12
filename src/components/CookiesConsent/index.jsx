@@ -18,22 +18,23 @@ const getCookie = (name) => {
 
 const CookieConsent = () => {
     const [showBanner, setShowBanner] = useState(false);
-
     useEffect(() => {
         const consent = getCookie('cookieConsent');
         if (!consent) {
             setShowBanner(true); // Afficher le bandeau si le consentement n'a pas encore été donné
-        }
+        } 
     }, []);
 
     const handleAccept = () => {
         setCookie('cookieConsent', 'accepted', 365); // Défini le cookie pour 1 an
-        setShowBanner(false); // Masque le bandeau après acceptation
+        setShowBanner(false);
+        setCookiesAccepted(true); // Masque le bandeau après acceptation
     };
 
     const handleDecline = () => {
         setCookie('cookieConsent', 'declined', 365); // Défini le cookie pour 1 an
         setShowBanner(false); // Masque le bandeau après refus
+        setCookiesAccepted(false);
     };
 
     // Ne pas rendre le composant si le bandeau ne doit pas être affiché
@@ -53,3 +54,4 @@ const CookieConsent = () => {
 };
 
 export default CookieConsent;
+

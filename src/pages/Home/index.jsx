@@ -7,8 +7,6 @@ import CookiesConsent from '../../components/CookiesConsent/index.jsx';
 import './home.css';
 
 function Home() {
-
-    // eslint-disable-next-line no-unused-vars
     const [cookiesAccepted, setCookiesAccepted] = useState(false);
     const pageRef = useRef();
 
@@ -39,6 +37,7 @@ function Home() {
         }
     }
     }, []);
+
     
     return (
         <div className="container-home">
@@ -75,7 +74,6 @@ function Home() {
                         <meta name="twitter:description" content="Armor Web Créations, votre expert en création ou refonte de sites web en Bretagne. Nous offrons des solutions sur mesure pour vos projets personnels et professionnels." />
                         <meta name="twitter:image" content="https://armor-web-creations.vercel.app/homepage.png" />
                     </Helmet>
-                    {/* Consentement aux cookies */}
                     <CookiesConsent setCookiesAccepted={setCookiesAccepted} />
                     <Header />
                     <Intro />
