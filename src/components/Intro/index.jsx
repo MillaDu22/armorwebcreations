@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Dashboard from '../Dashboard/index.jsx';
+import WebQualityHighlights from '../WebQualityHighlights/index.jsx';
 import SliderLogo from '../SliderLogo/index.jsx';
 import './intro.css';
 
@@ -45,6 +46,7 @@ const Intro = () => {
             <p className="p-print">
                 Ma mission : vous aider à <strong>construire une présence en ligne solide</strong> avec un site web qui vous démarque. Je vous garantis une <strong>expérience utilisateur fluide</strong> et un design soigné. Un site web est bien plus qu'un outil de communication : c'est la vitrine de votre activité et le socle de votre succès en ligne.
             </p>
+            <WebQualityHighlights />
             <i className="fas fa-hand-pointer"></i>
             <h2 className="action-title">Prêt(e) à lancer votre site web ?</h2>
             <p className="explore-txt">

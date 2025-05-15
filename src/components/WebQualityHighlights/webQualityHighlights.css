@@ -1,0 +1,111 @@
+.highlight-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: black;
+}
+
+.highlight-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width:100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.highlight-card {
+    width:42%;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1), inset 0 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000, 0 0 0 5.5px #080808;
+    padding: 2rem 1.5rem;
+    background: black;
+}
+
+.highlight-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #61DAFB;
+}
+
+.highlight-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 0 6px #61DAFB);
+}
+
+.highlight-title {
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #61DAFB;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.highlight-description {
+    color: #dddddd;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 1023px) {
+    .highlight-grid {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .highlight-card {
+        width: 80%;
+    }
+
+    .highlight-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #61DAFB;
+}
+
+    .highlight-image {
+        width: 90%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .highlight-section {
+        padding: 1rem 0rem;
+    }
+
+    .highlight-grid {
+        flex-direction: column;
+    }
+
+    .highlight-card {
+        width: 88%;
+        padding: 1.5rem 1rem;
+    }
+
+    .highlight-image {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+
+    .highlight-title {
+        font-size: 1.2rem;
+    }
+
+    .highlight-description {
+        font-size: 0.95rem;
+    }
+}
