@@ -6,25 +6,25 @@ const highlights = [
         title: "Code 100% sur mesure",
         description:
         "Le développement de votre site entièrement encodé, sans utiliser de CMS. Cela garantit un site réellement personnalisé, plus sécurisé, mieux optimisé et sans coûts d’entretien superflus à long terme. Vous êtes propriétaire à 100 % de votre solution.",
-        image: "/src/assets/images/code-react.jpeg",
+        image: "/src/assets/images/code-react.webp",
     },
     {
         title: "Accessibilité numérique",
         description:
         "Votre site est pensé pour être accessible à tous, y compris aux personnes en situation de handicap. J’applique les bonnes pratiques (contrastes, navigation clavier, structure claire) pour une expérience inclusive et conforme aux standards actuels.",
-        image: "/src/assets/images/accessibilite-numerique-768x432.webp",
+        image: "/src/assets/images/accessibilite.webp",
     },
     {
         title: "Référencement naturel (SEO)",
         description:
         "Une intégration dès la conception des principes du référencement naturel. Il ne s'agit pas de publicités payantes, mais d’un positionnement durable et progressif dans les résultats de recherche, pour une visibilité à long terme sans frais mensuels.",
-        image: "/src/assets/images/seo-referencement-wsi-martinique.png",
+        image: "/src/assets/images/seo.webp",
     },
     {
         title: "Performance et rapidité",
         description:
         "Votre site se charge rapidement sur tous les appareils, grâce à un code optimisé, des fichiers allégés et une structure pensée pour l’efficacité. C’est un véritable atout pour le confort de vos visiteurs, la compatibilité mobile et votre positionnement sur Google.",
-        image: "/src/assets/images/perf.jpg",
+        image: "/src/assets/images/perf.webp",
     },
 ];
 

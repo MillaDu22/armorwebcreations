@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600&display=swap');
+
 .container-header {
     overflow: hidden;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600&display=swap');
 
 .container-hero {
     display: flex;
